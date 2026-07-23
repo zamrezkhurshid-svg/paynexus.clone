@@ -125,7 +125,7 @@ body {
   background: rgb(221, 214, 214);
   border-radius: 30px;
   display: grid;
-  grid-template-rows: repeat(1, 500px);
+  grid-template-rows: repeat(1, 800px);
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -138,13 +138,13 @@ body {
 }
 
 .text2 {
-  margin-top: 1100px;
+  margin-top: 1160px;
   margin-left: -600px;
   text-align: center;
 }
 
 .text3 {
-  height: 1000px;
+  height: 1200px;
   margin-top: 580px;
   margin-left: -600px;
   text-align: center;
@@ -181,6 +181,14 @@ body {
 
 .item5a {
   text-align: left;
+}
+
+.item5a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.item5a:hover .button4 {
+  background-color: rgb(255, 255, 255);
 }
 
 .item5a h4 {
@@ -263,11 +271,27 @@ h4 ~ p {
   margin-bottom: 40px;
 }
 
+h5 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 5px;
+}
+
+h5 ~ p {
+  margin-bottom: -25px;
+}
+
 header {
   margin-left: 20px;
   margin-bottom: -25px;
   font-size: 50px;
   font-weight: bolder;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: rgb(245, 239, 239);
 }
 
 /* TEXT CSS */
@@ -341,6 +365,11 @@ button {
   padding-right: 25px;
 }
 
+.button4 i {
+  border-radius: 50px;
+  background-color: rgb(221, 214, 214);
+}
+
 button:hover {
   background-color: white;
   color: black;
@@ -395,4 +424,8 @@ button i:hover {
   padding-left: 175px;
   font-size: 25px;
   font-weight: bold;
+}
+
+.fa-circle-check {
+  padding-right: 5px;
 }
