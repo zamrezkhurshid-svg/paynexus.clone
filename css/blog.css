@@ -127,6 +127,15 @@ body {
   display: grid;
   grid-template-rows: repeat(1, 800px);
   grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.grids6 {
+  display: grid;
+  grid-template-rows: repeat(1, 400px);
+  grid-template-columns: repeat(4, 330px);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .text {
@@ -149,6 +158,19 @@ body {
   margin-left: -600px;
   text-align: center;
   background: rgb(226, 223, 223);
+}
+
+.text4 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.text4 h5 {
+  white-space: nowrap;
+  margin-left: 350px;
+  font-size: 45px;
+  font-weight: 5px;
 }
 
 .text3 h4 {
@@ -181,6 +203,8 @@ body {
 
 .item5a {
   text-align: left;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgb(83, 80, 80);
 }
 
 .item5a:hover {
@@ -211,6 +235,27 @@ body {
 .item5 h4 ~ p {
   color: black;
   font-size: 15px;
+}
+
+.item6 {
+  width: 320px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.item7 {
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.item8 {
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.item6 img {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .fa-check-double {
@@ -365,6 +410,12 @@ button {
   padding-right: 25px;
 }
 
+.button5 {
+  background: #8b5cf6;
+  color: white;
+  border-radius: 50px;
+}
+
 .button4 i {
   border-radius: 50px;
   background-color: rgb(221, 214, 214);
@@ -428,4 +479,20 @@ button i:hover {
 
 .fa-circle-check {
   padding-right: 5px;
+}
+
+footer {
+  height: 250px;
+  background-color: black;
+  text-align: center;
+}
+
+footer h5 {
+  color: white;
+  font-size: 50px;
+}
+
+footer h5 ~ p {
+  color: grey;
+  margin-bottom: 25px;
 }
