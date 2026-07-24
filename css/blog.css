@@ -12,7 +12,7 @@
 html,
 body {
   overflow-x: hidden;
-  height: 7000px;
+  height: 6000px;
   width: 100%;
 }
 
@@ -144,6 +144,14 @@ body {
   height: 600px;
   width: 1200px;
   margin-bottom: 50px;
+}
+
+.text h3 {
+  margin-left: 20px;
+}
+
+.text p {
+  margin-left: 20px;
 }
 
 .text2 {
@@ -278,7 +286,7 @@ nav {
   border: 3px solid white;
   padding-left: 5px;
   border-radius: 10px;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-bottom: 50px;
 }
 
@@ -416,6 +424,15 @@ button {
   border-radius: 50px;
 }
 
+.button5 i {
+  color: black;
+  background-color: white;
+}
+
+.button5:hover i {
+  background-color: #8b5cf6;
+}
+
 .button4 i {
   border-radius: 50px;
   background-color: rgb(221, 214, 214);
@@ -482,7 +499,8 @@ button i:hover {
 }
 
 footer {
-  height: 250px;
+  padding-top: 30px;
+  height: 320px;
   background-color: black;
   text-align: center;
 }
